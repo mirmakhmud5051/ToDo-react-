@@ -59,7 +59,7 @@ function App() {
       <div>
         <form
           onSubmit={addStudent}
-          className="flex items-center justify-center flex-col gap-[30px] bg-blue-400 w-[500px] h-[500px] rounded-2xl outline-0"
+          className="flex items-center justify-center flex-col gap-[30px] bg-blue-400 w-[500px] h-[500px] rounded-2xl outline-0 px-[10px] " 
         >
           <h1 className="font-bold text-4xl">Add users</h1>
 
@@ -131,7 +131,7 @@ function App() {
         {students.map((student) => (
           <div
             key={student.id}
-            className="w-[350px] h-[350px] bg-blue-400  px-[10px] rounded-2xl p-[20px] flex flex-col items-center gap-[10px]"
+            className="w-[350px] h-[350px] bg-blue-400   rounded-2xl p-[20px] flex flex-col items-center gap-[10px]"
           >
             {(
               <img
