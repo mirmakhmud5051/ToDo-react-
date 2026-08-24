@@ -69,7 +69,7 @@ function App() {
             value={user.image}
             onChange={inputDatas}
             placeholder="Image Link"
-            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0"
+            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0 px-[15px]"
           />
 
           <input
@@ -78,7 +78,7 @@ function App() {
             value={user.firstname}
             onChange={inputDatas}
             placeholder="Firstname"
-            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0"
+            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0 px-[15px]"
           />
 
           <input
@@ -87,7 +87,7 @@ function App() {
             value={user.email}
             onChange={inputDatas}
             placeholder="Email"
-            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0"
+            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0 px-[15px]"
           />
 
           <input
@@ -96,7 +96,7 @@ function App() {
             value={user.phone}
             onChange={inputDatas}
             placeholder="Phone number"
-            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0"
+            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0 px-[15px]"
           />
 
           <input
@@ -105,7 +105,7 @@ function App() {
             value={user.enrollNumber}
             onChange={inputDatas}
             placeholder="Enroll number"
-            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0"
+            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0 px-[15px]"
           />
 
           <input
@@ -113,7 +113,7 @@ function App() {
             name="date"
             value={user.date}
             onChange={inputDatas}
-            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0"
+            className="w-[300px] h-[40px] bg-white rounded-2xl  outline-0 px-[15px]"
           />
 
           <button
