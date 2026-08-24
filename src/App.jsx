@@ -131,7 +131,7 @@ function App() {
         {students.map((student) => (
           <div
             key={student.id}
-            className="w-[350px] h-[350px] bg-blue-400  rounded-2xl p-[20px] flex flex-col items-center gap-[10px]"
+            className="w-[350px] h-[350px] bg-blue-400  px-[10px] rounded-2xl p-[20px] flex flex-col items-center gap-[10px]"
           >
             {(
               <img
